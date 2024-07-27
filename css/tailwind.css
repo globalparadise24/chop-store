@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles */
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+header {
+    transition: background-color 0.3s ease;
+}
+
+header:hover {
+    background-color: #003366;
+}
+
+button {
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #004488;
+    transform: translateY(-2px);
+}
+
+button:active {
+    transform: translateY(0);
+}
